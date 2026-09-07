@@ -23,6 +23,7 @@ const configuration: webpack.Configuration = {
             transpileOnly: true,
             compilerOptions: {
               module: 'esnext',
+              moduleResolution: 'bundler',
             },
           },
         },
