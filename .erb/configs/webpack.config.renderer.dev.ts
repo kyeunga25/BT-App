@@ -171,10 +171,10 @@ const configuration: webpack.Configuration = {
   },
 
   devServer: {
+    host: '127.0.0.1',
     port,
     compress: true,
     hot: true,
-    headers: { 'Access-Control-Allow-Origin': '*' },
     static: {
       publicPath: '/',
     },
